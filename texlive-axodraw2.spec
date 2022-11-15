@@ -39,15 +39,10 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%doc %{_texmfdistdir}/texmf-dist/source/latex/axodraw2
-%{_texmfdistdir}/texmf-dist/tex/latex/axodraw2
-%doc %{_texmfdistdir}/texmf-dist/doc/latex/axodraw2
-%{_texmfdistdir}/texmf-dist
-%{_texmfdistdir}/texmf-dist/doc
-%doc %{_texmfdistdir}/texmf-dist/doc/man
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/axohelp.man1.pdf
-%doc %{_texmfdistdir}/texmf-dist/doc/man/man1/axohelp.1
+%doc %{_texmfdistdir}/source/latex/axodraw2
+%{_texmfdistdir}/tex/latex/axodraw2
+%doc %{_texmfdistdir}/doc/latex/axodraw2
+%doc %{_texmfdistdir}/doc/man/man1/*
 
 %post -p %{_sbindir}/texlive.post
 
