@@ -1,6 +1,6 @@
 Name:		texlive-axodraw2
 Version:	58155
-Release:	1
+Release:	2
 Summary:	Feynman diagrams in a LaTeX document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/axodraw2
